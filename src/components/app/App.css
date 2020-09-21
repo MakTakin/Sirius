@@ -1,0 +1,12 @@
+.container {
+    background: #E5E5E5;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 5.72fr;
+    grid-template-areas: "nav main";
+
+}
